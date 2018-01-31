@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hoger Lager Lay-out</title>
+        <script>
+var rollsound = new Audio();
+rollsound.src = 'rollsound.mp3';
+</script>
+        <link href="css/HogerLager.css" rel="Stylesheet"/>
+    </head>
+    <body >
+        
+        <header>
+            <center> <img class="banner" src="img/banner.png" />
+            <h1>Hoger/Lager The Game</h1></center>
+            
+        </header>
+    <center> <img class="backgroundtable" src="img/casino.png" /></center>
+    <knoppen>
+        <center>
+            <button onclick="rollsound.play()">Bank Dobbelen</button>
+            <button onclick="rollsound.play()">Speler Dobbelen</button>
+            <button onclick="">Volgende Beurt</button>
+            <div>
+                    <button onclick="">Inzet Bevestigen</button>
+                    <input type="text" id="inzet" onkeypress="return isNumberKey(event)"/>
+                    <hogerlager>
+                        <input type="radio" onclick="rollsound.play()" name="check" id="hoger" > Hoger
+                        <input type="radio" name="check" id="lager" > Lager
+                    </hogerlager>
+            </div>
+        </center>
+    </knoppen>
+    <audio autoplay>
+        <source src="casinomusic.mp3" type="audio/mpeg">
+    </audio>
+    </body>
+    
+</html>
