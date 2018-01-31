@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-jan-2018, 14:14:11
+    Author     : Jarbo
+*/
+
+.backgroundtable{
+   width: 950px;
+   box-shadow: 5px 5px 5px #222;
+   border-radius: 25px;
+}
+
+body{
+    background-color: green;
+     background-image: url("../img/background.png");
+}
+
+header{
+    font-family: Castellar;
+    text-align: center;
+    font-size: 30px;
+    background-color: #562D2E;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 25px;
+    color: white;
+
+
+
+   
+}
+
+button{
+    padding: 25px;
+    background-color: #562D2E;
+    color: white;
+    margin: 2px;
+    font-size: 20px;
+    font-family: Castellar;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+hogerlager{
+    font-size: 20px;
+    font-family: Castellar;
+    padding: 25px;
+    background-color: #562D2E;
+    border-style: outset;
+    border-width: 2px;
+    color: white;
+    border-radius: 40px;
+    
+    
+    
+}
+
+
+
+
+
+
