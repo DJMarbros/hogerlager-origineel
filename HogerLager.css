@@ -1,36 +1,22 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-*/
-
 .backgroundtable{
-   width: 950px;
-   box-shadow: 5px 5px 5px #222;
-   border-radius: 25px;
-   margin-top: 20px;
+    width: 950px;
+    box-shadow: 5px 5px 5px #222;
+    border-radius: 25px;
 }
 
 body{
     background-color: green;
-     background-image: url("../img/background.png");
+    background-image: url("../img/background.png");  
 }
 
 header{
     font-family: Castellar;
     text-align: center;
     font-size: 30px;
-    
+    background-color: #562D2E;
     text-shadow: 2px 2px 4px #000000;
     border-radius: 25px;
-    
-    
-
-
-
-   
+    color: white;
 }
 
 button{
@@ -43,6 +29,28 @@ button{
     margin-top: 5px;
     border-radius: 15px;
 }
+#achtergrond canvas {
+    
+    
+    z-index: 10;
+    height: 570px;
+    width: 950px;
+    position: absolute;
+    right:25%;
+    
+}
+#achtergrond {
+    text-align: center;
+}
+
+#achtergrond img {
+    z-index: -9999;
+    width:950px;
+    height:570px;
+    border-radius:40px; 
+    position: absolute;
+    right:25%;
+}
 
 hogerlager{
     font-size: 20px;
@@ -53,120 +61,13 @@ hogerlager{
     border-width: 2px;
     color: white;
     border-radius: 40px;
-    
-    
-    
 }
 
-h1{
-    margin-top: -165px;
-    position: relative;
-    -webkit-animation:colorchange 20s infinite alternate;
+#knoppen{
+    margin-top:35%;
 }
 
- @-webkit-keyframes colorchange {
-      0% {
-        
-        color: white;
-      }
-      
-      10% {
-        
-        color: #D4AF37;
-      }
-      
-      15% {
-        
-        color: white;
-      }
-      
-      20% {
-        
-        color: #D4AF37;
-      }
-      
-      25% {
-        
-        color: white;
-      }
-      
-     30% {
-        
-        color: #D4AF37;
-      }
-      
-      35% {
-        
-        color: white;
-      }
-      
-      40% {
-        
-        color: #D4AF37;
-      }
-      45% {
-     
-        color: white;
-      }
-      
-      50% {
-     
-        color: #D4AF37;
-      }
-      
-      55% {
-        
-        color: white;
-      }
-        
-        60% {
-        
-        color: #D4AF37;
-      }
-      
-      65% {
-        
-        color: white;
-      }
-      
-      70% {
-        
-        color: #D4AF37;
-      }
-      
-      75% {
-        
-        color: white;
-      }
-      
-     80% {
-        
-        color: #D4AF37;
-      }
-      
-      85% {
-        
-        color: white;
-      }
-      
-      90% {
-        
-        color: #D4AF37;
-      }
-      95% {
-     
-        color: white;
-      }
-      
-      100% {
-     
-        color: #D4AF37;
-      }
-      
-    }
-    
-    .banner{
-        width: 1600px;
-        heigth: 700px;
-        postion:absolute;
-    }
+
+
+
+
